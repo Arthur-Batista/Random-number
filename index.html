@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerador de Números Aleatórios</h1>
+    <div class="input-group">
+      <label for="maxValue">Valor máximo:</label>
+      <input type="number" id="maxValue" value="100">
+    </div>
+    <div id="randomNumber"></div>
+    <div class="btn-group">
+      <button class="btn" onclick="generateRandomNumber()">
+        <span class="material-icons">casino</span>
+        Gerar número aleatório
+      </button>
+      <button class="btn" onclick="startAutoUpdate()">
+        <span class="material-icons">play_arrow</span>
+        Iniciar atualização automática
+      </button>
+      <button class="btn" onclick="stopAutoUpdate()">
+        <span class="material-icons">pause</span>
+        Parar atualização automática
+      </button>
+      <button class="btn" onclick="clearNumber()">
+        <span class="material-icons">delete</span>
+        Limpar número
+      </button>
+    </div>
+  </div>
+  <button class="dark-mode-btn" onclick="toggleDarkMode()">
+    <span class="material-icons">brightness_4</span>
+  </button>
+
+  <script src="https://fonts.googleapis.com/icon?family=Material+Icons"></script>
+  <script src="app.js"></script>
+</body>
+</html>
