@@ -43,6 +43,7 @@
       font-size :2em ;
       margin-top :20px ;
       text-align:center ;
+      font-family: 'Orbitron', sans-serif;
   }
   
   .btn-group {
@@ -60,6 +61,7 @@
       border-radius :4px ;
       background-color :var(--primary-color) ;
       color:#fff ;
+      cursor:pointer ; 
   }
   
   .btn:hover {
@@ -84,6 +86,7 @@
      border-radius :50% ; 
      background-color:#6200ee ; 
      color:#fff ; 
+     cursor:pointer ; 
   }
   
   .dark-mode-btn:hover {
@@ -93,7 +96,7 @@
   .dark-mode {
      --primary-color:#BB86FC ; 
      --secondary-color:#03DAC5 ; 
-     --background-color:#121212 ; 
+     --background-color:#333333 ; 
      --text-color:#FFFFFF ;  
   }
   
@@ -101,11 +104,11 @@
      text-align:center ; 
      padding-bottom :20px ; 
   }
-  
-  footer a {
-     color:inherit ; 
-     font-weight:bold ; 
-     text-decoration: underline ; 
+
+  footer a{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: black;
   }
   
   @media (max-width :600px ) {
@@ -124,6 +127,12 @@
          max-width :300px ; 
          margin-bottom :10px ; 
          margin-right :0 !important; 
+     }
+     
+     #randomNumber {
+         font-size:7em ;
+         margin-top:60px ;
+         text-align:center ;
      }
   }
   
